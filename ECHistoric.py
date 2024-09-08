@@ -35,6 +35,10 @@ ec_en_csv = ECHistorical(station_id=4413, year=1975, month=1, language="english"
 
 asyncio.run(ec_en_xml.update())
 asyncio.run(ec_en_csv.update())
+#### Test for girhub
+
+def git():
+    pass
 
 # metadata describing the station
 ec_en_xml.metadata
